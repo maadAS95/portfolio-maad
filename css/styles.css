@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding : 0;
+     box-sizing :box-border;
+}
+
+body{
+    background-color:#c2f6ef;
+    color: #7353ba;
+    font-weight: bold;
+}
+header {
+    color:#c2f6ef;
+    background-color :#7353ba;
+}
+.rounded {
+    border-radius : 80px;
+    margin-left : 20%;
+    margin-top:10%;
+    width:400px;
+    height : 300px;
+}
