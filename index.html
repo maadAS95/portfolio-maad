@@ -12,13 +12,15 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 			<a class="navbar-brand" href="#">Maad salman</a>
-			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
 		
 		  
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			  <ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-				  <a class="nav-link" href="/">Home </a>
+				  <a class="nav-link active" href="#home">Home <span class="sr-only"></span> </a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="#projects">projects</a>
@@ -42,26 +44,28 @@
 			</div>
 		  </nav>
 	</header>
-	<div class="container">
+	<div id="home">
+		<div class="container mt-3">
+
+				<div class="col-sm-12 col-md-4 ">
+					<img alt="profile image" class="rounded " src="images/portfolio.jpg">
+				</div>	
 		
-			<div class="col-sm-12 col-md-4">
-				<img alt="profile image" class="rounded " src="images/portfolio.jpg">
-			</div>	
-      
-			<div class="col-sm-12 col-md-8">
-		      <div class="jumbotron">
-				 <h1 class="display-3">Hello, Developers!</h1>
-				 <h2> I'm Maad Salman</h2>
-				 <p> Front-end developer specialized in React.js Library <br/> 
-				  It's my official Portfolio here you can see every update of my projects <br/>
-				  <strong>Enjoy coding with JS !</strong>	
-				 </p>
-				 <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-			   </div>
-		   </div> 		
+				<div class="col-sm-12 col-md-8">
+				<div class="jumbotron">
+					<h1 class="display-3">Hello, Developers!</h1>
+					<h2> I'm Maad Salman</h2>
+					<p> Front-end developer specialized in React.js Library <br/> 
+					It's my official Portfolio here you can see every update of my projects <br/>
+					<strong>Enjoy coding with JS !</strong>	
+					</p>
+					<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+				</div>
+			</div> 		
+			</div>
+		</div>
 		
-	</div>
-	<section id="#projects">
+	<div id="projects">
 	    <div class="album py-5 bg-light">
 			<h3 class="text-center">Projects</h3>
 			<div class="row">
@@ -155,9 +159,9 @@
 				  </div>
 			</div>
         </div>
-	</section>
+	</div>
 
-	<section id="#contact">
+	<div id="contact">
 		<h3 class="text-center"> Sign up to receive every news , please</h3>
 		<div class = "col-sm-6 md-4 offset-3">
 
@@ -177,12 +181,12 @@
 			
 			<p class="mt-5 mb-3 text-muted">&copy; 2021</p>
 		</div>
-	</section>
+	</div>
 	
 	
 	<script src="js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
